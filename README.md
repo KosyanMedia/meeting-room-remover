@@ -49,9 +49,6 @@ Thanks to the following people who have contributed to this project:
 * [@Anton Shalimov](https://github.com/AntonShalimov) 🐛
 * [@Alexey Sergeev](https://github.com/SergeevAI) 🐛
 
-
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
-
 ## Contact
 
 If you want to contact me you can reach us at [GH Issues](https://github.com/KosyanMedia/meeting-room-remover/issues)
