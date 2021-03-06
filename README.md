@@ -7,24 +7,18 @@ If the user has any meeting rooms booked for today AND she has not logged into S
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+* You have installed the docker and docker-compose
 
-## Installing <project_name>
+## Installing meeting-room-remover
 
-To install <project_name>, follow these steps:
+To install meeting-room-remover, follow these steps:
 
-Linux and macOS:
 ```
-<install_command>
+git clone git@github.com:KosyanMedia/meeting-room-remover.git
+cd meeting-room-remover
+make up
 ```
 
-Windows:
-```
-<install_command>
-```
 ## Using <project_name>
 
 To use <project_name>, follow these steps:
