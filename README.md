@@ -2,7 +2,7 @@
 
 Meeting Room Remover is a Slackbot that allows users to remove meeting rooms from their events in Google Calendar when they are not in the office.
 
-If the user has any meeting rooms booked for today AND she has not logged into Slack from office IP address, Meeting Room Remover bot sends a message to the user. When the user clicks on a button, bot removes the meeting room from the event.
+If the user has any meeting rooms booked for today AND she has not logged into Slack from the office IP address, the bot sends a message to the user. When the user clicks on a button, the bot removes the meeting room from the event.
 
 ## Prerequisites
 
