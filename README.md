@@ -19,12 +19,14 @@ cd meeting-room-remover
 make up
 ```
 
-## Using <project_name>
+## Using meeting-room-remover
 
-To use <project_name>, follow these steps:
+To use meeting-room-remover, follow these steps:
 
 ```
-<usage_example>
+* configuration steps TBD soon
+* please, stay tuned 📻
+
 ```
 
 Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
