@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  slack_bot:
+    network_mode: "host"
+    image: meeting-room-remover:dev
+    command: pipenv run slack_bot
+    volumes:
+      - tokens:/app/token-storage
+    ports:
+        - "8080:8080"
+
+  cron:
+    network_mode: "host"
+    image: meeting-room-remover:dev
+    command: cron -f -L 15
+
+  db:
+    network_mode: "host"
+    image: postgres:12.4-alpine
+    environment:
+      POSTGRES_DB: "meeting-room-remover"
+      POSTGRES_USER: "docker"
+      POSTGRES_PASSWORD: "password"
+    volumes:
+      - data:/var/lib/postgresql/data
+      - ./docker/initdb:/docker-entrypoint-initdb.d/
+    ports:
+      - "5432:5432"
+
+volumes:
+  data:
+  tokens:

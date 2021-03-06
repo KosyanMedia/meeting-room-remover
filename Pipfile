@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+slack-bolt = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+psycopg2-binary = "*"
+arrow = "*"
+fastapi = "*"
+uvicorn = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+slack_bot = "uvicorn slack_bot.main:api --port 8080"
+calendar_listener = "python calendar_listener/main.py"
+slack_logger = "python slack_logger/main.py"
+syebator = "python room_remover/main.py"

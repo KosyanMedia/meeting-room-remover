@@ -1,0 +1,17 @@
+[
+    {
+        "location": "hkt",
+        "id": "aviasales.ru_first_peregovorka@resource.calendar.google.com",
+        "summary": "HKT-1-GP"
+    },
+    {
+        "location": "mow",
+        "id": "aviasales.ru_second_peregovorka@resource.calendar.google.com",
+        "summary": "MOW-1-Demo"
+    },
+    {
+        "location": "spb",
+        "id": "aviasales.ru_third_peregovorka@resource.calendar.google.com",
+        "summary": "SPB-1-Meet"
+    }
+]
