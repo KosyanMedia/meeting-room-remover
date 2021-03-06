@@ -54,9 +54,8 @@ You might want to consider using something like the [All Contributors](https://g
 
 ## Contact
 
-If you want to contact me you can reach me at <your_email@address.com>.
+If you want to contact me you can reach us at [GH Issues](https://github.com/KosyanMedia/meeting-room-remover/issues)
 
 ## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
 This project uses the following license: [<MIT>](<https://opensource.org/licenses/MIT>).
